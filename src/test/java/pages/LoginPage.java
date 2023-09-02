@@ -15,7 +15,7 @@ public class LoginPage {
 
     @FindBy(id = "username") private WebElement username;
     @FindBy(id = "password") private WebElement password;
-    @FindBy(className = "btn btn-primary") private WebElement signInButton;
+    @FindBy(xpath = "//button[contains(text(),'Log in')]") private WebElement signInButton;
 
     public void login(String username, String password) {
         this.username.sendKeys(username);
