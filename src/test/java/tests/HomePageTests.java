@@ -35,8 +35,8 @@ public void setup() {
         homePage.verifyNameIsDisplayed();
         homePage.setFirstName("TestFirstName01");
         homePage.setLastName("TestLastName01");
-        homePage.selectTarget("$5,000");
-        homePage.setSalesResult("6000");
+        homePage.selectTarget("5000");
+        homePage.setSalesResult(6000);
         homePage.clickSubmitButton();
         Assert.assertEquals(homePage.getName(), "TestFirstName01 TestLastName01", "Name is not as expected");
         Assert.assertEquals(homePage.getTarget(),"$5,000","Target is different than expected");
@@ -51,8 +51,8 @@ public void setup() {
         homePage.verifyNameIsDisplayed();
         homePage.setFirstName("TestFirstName02");
         homePage.setLastName("TestLastName02");
-        homePage.selectTarget("$10,000");
-        homePage.setSalesResult("2000");
+        homePage.selectTarget("10000");
+        homePage.setSalesResult(2000);
         homePage.clickSubmitButton();
         Assert.assertEquals(homePage.getName(), "TestFirstName02 TestLastName02", "Name is not as expected");
         Assert.assertEquals(homePage.getTarget(),"$10,000","Target is different than expected");
@@ -67,8 +67,8 @@ public void setup() {
         homePage.verifyNameIsDisplayed();
         homePage.setFirstName("TestFirstName03");
         homePage.setLastName("TestLastName03");
-        homePage.selectTarget("$15,000");
-        homePage.setSalesResult("15000");
+        homePage.selectTarget("15000");
+        homePage.setSalesResult(15000);
         homePage.clickSubmitButton();
         Assert.assertEquals(homePage.getName(), "TestFirstName03 TestLastName03", "Name is not as expected");
         Assert.assertEquals(homePage.getTarget(),"$15,000","Target is different than expected");
@@ -83,8 +83,8 @@ public void setup() {
         homePage.verifyNameIsDisplayed();
         homePage.setFirstName("TestFirstName04");
         homePage.setLastName("TestLastName04");
-        homePage.selectTarget("$5,000");
-        homePage.setSalesResult("-1500");
+        homePage.selectTarget("5000");
+        homePage.setSalesResult(-1500);
         homePage.clickSubmitButton();
         Assert.assertEquals(homePage.getName(), "TestFirstName04 TestLastName04", "Name is not as expected");
         Assert.assertEquals(homePage.getTarget(),"$5,000","Target is different than expected");
@@ -99,8 +99,8 @@ public void setup() {
         homePage.verifyNameIsDisplayed();
         homePage.setFirstName("TestFirstName05");
         homePage.setLastName("TestLastName05");
-        homePage.selectTarget("$20,000");
-        homePage.setSalesResult("0");
+        homePage.selectTarget("20000");
+        homePage.setSalesResult(0);
         homePage.clickSubmitButton();
         Assert.assertEquals(homePage.getName(), "TestFirstName05 TestLastName05", "Name is not as expected");
         Assert.assertEquals(homePage.getTarget(),"$20,000","Target is different than expected");
@@ -179,8 +179,8 @@ public void setup() {
     public void checkEmptyFirstName() {
         Assert.assertTrue(homePage.getFirstName().isEmpty(),"The name should be empty " + homePage.getFirstName());
         homePage.setLastName("TestLastName06");
-        homePage.selectTarget("$50,000");
-        homePage.setSalesResult("50000");
+        homePage.selectTarget("50000");
+        homePage.setSalesResult(50000);
         homePage.clickSubmitButton();
         Assert.assertEquals(homePage.countTableRows(), 5, "There shouldn't be added new row for TestLastName06");
         Assert.assertTrue(homePage.verifyEmptyMessageShow());

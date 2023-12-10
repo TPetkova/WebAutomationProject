@@ -59,11 +59,11 @@ public class HomePage {
 
     public void selectTarget(String target) {
         Select targetNumber = new Select(salesTarget);
-        targetNumber.selectByVisibleText(target);
+        targetNumber.selectByValue(target);
     }
 
-    public void setSalesResult(String salesResult) {
-        this.salesResult.sendKeys(salesResult);
+    public void setSalesResult(float salesResult) {
+        this.salesResult.sendKeys(Float.toString(salesResult));
     }
 
     public void clickSubmitButton() {
