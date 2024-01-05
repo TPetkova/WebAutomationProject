@@ -1,0 +1,5 @@
+runners\TestRunner.class
+tests\HomePageTests.class
+helpers\Hooks.class
+pages\LoginPage.class
+pages\HomePage.class

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-JQAModul4" class="navigator-link">
+              <span class="suite-name border-failed">JQAModul4</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-JQAModul4" class="navigator-link ">
+                    <span>C:\Users\User\IdeaProjects\WebAuto\JQA_Modul4\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-JQAModul4" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-JQAModul4" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-JQAModul4" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-JQAModul4" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-JQAModul4" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-JQAModul4" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 5 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-JQAModul4" class="hide-methods failed suite-JQAModul4"> (hide)</a> <!-- hide-methods failed suite-JQAModul4 -->
+                      <a href="#" panel-name="suite-JQAModul4" class="show-methods failed suite-JQAModul4"> (show)</a> <!-- show-methods failed suite-JQAModul4 -->
+                    </span>
+                    <div class="method-list-content failed suite-JQAModul4">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkEmptyFirstName">checkEmptyFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkEmptyLastName">checkEmptyLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkEmptyResult">checkEmptyResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkHidePerformance">checkHidePerformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkShowPerformance">checkShowPerformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-JQAModul4 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-JQAModul4" class="hide-methods passed suite-JQAModul4"> (hide)</a> <!-- hide-methods passed suite-JQAModul4 -->
+                      <a href="#" panel-name="suite-JQAModul4" class="show-methods passed suite-JQAModul4"> (show)</a> <!-- show-methods passed suite-JQAModul4 -->
+                    </span>
+                    <div class="method-list-content passed suite-JQAModul4">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkSumDifference">checkSumDifference</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkSumDifferenceShownOnpage">checkSumDifferenceShownOnpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkSumPeople">checkSumPeople</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkSumPeopleShownOnPage">checkSumPeopleShownOnPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkSumResult">checkSumResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkSumResultShownOnpage">checkSumResultShownOnpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkSumTarget">checkSumTarget</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="checkSumTargetShownOnpage">checkSumTargetShownOnpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="deleteEntries">deleteEntries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="negativeDifference">negativeDifference</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="negativeResult">negativeResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="positiveDifference">positiveDifference</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="zeroDifference">zeroDifference</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JQAModul4" title="tests.HomePageTests" class="method navigator-link" hash-for-method="zeroResult">zeroResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-JQAModul4 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-JQAModul4" class="panel JQAModul4">
+          <div class="suite-JQAModul4-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.HomePageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmptyFirstName">
+                  </a> <!-- checkEmptyFirstName -->
+                  <span class="method-name">checkEmptyFirstName</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text() = &apos;Please fill out this field&apos;] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46690/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44984fefdbed6cd8bad6361c031ee344
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at pages.HomePage.verifyEmptyMessageShow(HomePage.java:146)
+	at tests.HomePageTests.checkEmptyFirstName(HomePageTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmptyLastName">
+                  </a> <!-- checkEmptyLastName -->
+                  <span class="method-name">checkEmptyLastName</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text() = &apos;Please fill out this field&apos;] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46690/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44984fefdbed6cd8bad6361c031ee344
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at pages.HomePage.verifyEmptyMessageShow(HomePage.java:146)
+	at tests.HomePageTests.checkEmptyLastName(HomePageTests.java:196)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmptyResult">
+                  </a> <!-- checkEmptyResult -->
+                  <span class="method-name">checkEmptyResult</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text() = &apos;Please fill out this field&apos;] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46690/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44984fefdbed6cd8bad6361c031ee344
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at pages.HomePage.verifyEmptyMessageShow(HomePage.java:146)
+	at tests.HomePageTests.checkEmptyResult(HomePageTests.java:206)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHidePerformance">
+                  </a> <!-- checkHidePerformance -->
+                  <span class="method-name">checkHidePerformance</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Hide performance&apos;)]&quot;}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44984fefdbed6cd8bad6361c031ee344, findElement {using=xpath, value=//button[contains(text(),&apos;Hide performance&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46690/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44984fefdbed6cd8bad6361c031ee344
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+	at pages.HomePage.clickHidePerformance(HomePage.java:133)
+	at tests.HomePageTests.checkHidePerformance(HomePageTests.java:174)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkShowPerformance">
+                  </a> <!-- checkShowPerformance -->
+                  <span class="method-name">checkShowPerformance</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (621, 808)
+  (Session info: chrome=119.0.6045.124)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44984fefdbed6cd8bad6361c031ee344, clickElement {id=9C9BB08A7D2AFDB4A10EAFE4F8150874_element_136}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:46690/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (44984fefdbed6cd8bad6361c031ee344)] -&gt; xpath: //button[contains(text(),&apos;Show performance&apos;)]]
+Session ID: 44984fefdbed6cd8bad6361c031ee344
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+	at pages.HomePage.clickShowPerformanceButton(HomePage.java:113)
+	at tests.HomePageTests.checkShowPerformance(HomePageTests.java:156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 45 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JQAModul4-class-failed -->
+          <div class="suite-JQAModul4-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSumDifference">
+                  </a> <!-- checkSumDifference -->
+                  <span class="method-name">checkSumDifference</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSumDifferenceShownOnpage">
+                  </a> <!-- checkSumDifferenceShownOnpage -->
+                  <span class="method-name">checkSumDifferenceShownOnpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSumPeople">
+                  </a> <!-- checkSumPeople -->
+                  <span class="method-name">checkSumPeople</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSumPeopleShownOnPage">
+                  </a> <!-- checkSumPeopleShownOnPage -->
+                  <span class="method-name">checkSumPeopleShownOnPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSumResult">
+                  </a> <!-- checkSumResult -->
+                  <span class="method-name">checkSumResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSumResultShownOnpage">
+                  </a> <!-- checkSumResultShownOnpage -->
+                  <span class="method-name">checkSumResultShownOnpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSumTarget">
+                  </a> <!-- checkSumTarget -->
+                  <span class="method-name">checkSumTarget</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSumTargetShownOnpage">
+                  </a> <!-- checkSumTargetShownOnpage -->
+                  <span class="method-name">checkSumTargetShownOnpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEntries">
+                  </a> <!-- deleteEntries -->
+                  <span class="method-name">deleteEntries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeDifference">
+                  </a> <!-- negativeDifference -->
+                  <span class="method-name">negativeDifference</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeResult">
+                  </a> <!-- negativeResult -->
+                  <span class="method-name">negativeResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveDifference">
+                  </a> <!-- positiveDifference -->
+                  <span class="method-name">positiveDifference</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroDifference">
+                  </a> <!-- zeroDifference -->
+                  <span class="method-name">zeroDifference</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroResult">
+                  </a> <!-- zeroResult -->
+                  <span class="method-name">zeroResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JQAModul4-class-passed -->
+        </div> <!-- panel JQAModul4 -->
+        <div panel-name="test-xml-JQAModul4" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\IdeaProjects\WebAuto\JQA_Modul4\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;JQAModul4&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HomePageTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePageTests --&gt;
+&lt;/suite&gt; &lt;!-- JQAModul4 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-JQAModul4" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for JQAModul4</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePageTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-JQAModul4" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for JQAModul4</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-JQAModul4" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for JQAModul4</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_JQAModul4');
+function tableData_JQAModul4() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkEmptyFirstName')
+data.setCell(0, 2, 'tests.HomePageTests')
+data.setCell(0, 3, 6150);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkEmptyResult')
+data.setCell(1, 2, 'tests.HomePageTests')
+data.setCell(1, 3, 5929);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkEmptyLastName')
+data.setCell(2, 2, 'tests.HomePageTests')
+data.setCell(2, 3, 5761);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'positiveDifference')
+data.setCell(3, 2, 'tests.HomePageTests')
+data.setCell(3, 3, 4309);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'negativeDifference')
+data.setCell(4, 2, 'tests.HomePageTests')
+data.setCell(4, 3, 1245);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'zeroDifference')
+data.setCell(5, 2, 'tests.HomePageTests')
+data.setCell(5, 3, 1209);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'zeroResult')
+data.setCell(6, 2, 'tests.HomePageTests')
+data.setCell(6, 3, 1191);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'negativeResult')
+data.setCell(7, 2, 'tests.HomePageTests')
+data.setCell(7, 3, 1178);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkShowPerformance')
+data.setCell(8, 2, 'tests.HomePageTests')
+data.setCell(8, 3, 1167);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteEntries')
+data.setCell(9, 2, 'tests.HomePageTests')
+data.setCell(9, 3, 816);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkSumDifferenceShownOnpage')
+data.setCell(10, 2, 'tests.HomePageTests')
+data.setCell(10, 3, 358);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkSumTargetShownOnpage')
+data.setCell(11, 2, 'tests.HomePageTests')
+data.setCell(11, 3, 355);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkSumResultShownOnpage')
+data.setCell(12, 2, 'tests.HomePageTests')
+data.setCell(12, 3, 352);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkSumDifference')
+data.setCell(13, 2, 'tests.HomePageTests')
+data.setCell(13, 3, 177);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkSumTarget')
+data.setCell(14, 2, 'tests.HomePageTests')
+data.setCell(14, 3, 166);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkSumResult')
+data.setCell(15, 2, 'tests.HomePageTests')
+data.setCell(15, 3, 161);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkSumPeopleShownOnPage')
+data.setCell(16, 2, 'tests.HomePageTests')
+data.setCell(16, 3, 78);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkHidePerformance')
+data.setCell(17, 2, 'tests.HomePageTests')
+data.setCell(17, 3, 42);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkSumPeople')
+data.setCell(18, 2, 'tests.HomePageTests')
+data.setCell(18, 3, 15);
+window.suiteTableData['JQAModul4']= { tableData: data, tableDiv: 'times-div-JQAModul4'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-JQAModul4">
+              </div> <!-- times-div-JQAModul4 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-JQAModul4" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for JQAModul4</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-JQAModul4" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-JQAModul4" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">positiveDifference</span>
+                <span class="method-start">8559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeDifference</span>
+                <span class="method-start">12875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeResult</span>
+                <span class="method-start">14121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">zeroDifference</span>
+                <span class="method-start">15300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">zeroResult</span>
+                <span class="method-start">16510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSumDifference</span>
+                <span class="method-start">17703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSumDifferenceShownOnpage</span>
+                <span class="method-start">17881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSumPeople</span>
+                <span class="method-start">18240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSumPeopleShownOnPage</span>
+                <span class="method-start">18256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSumResult</span>
+                <span class="method-start">18335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSumResultShownOnpage</span>
+                <span class="method-start">18497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSumTarget</span>
+                <span class="method-start">18850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSumTargetShownOnpage</span>
+                <span class="method-start">19017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkShowPerformance</span>
+                <span class="method-start">19373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkHidePerformance</span>
+                <span class="method-start">20556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkEmptyFirstName</span>
+                <span class="method-start">20606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkEmptyLastName</span>
+                <span class="method-start">26761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkEmptyResult</span>
+                <span class="method-start">32526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteEntries</span>
+                <span class="method-start">38461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">39279 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

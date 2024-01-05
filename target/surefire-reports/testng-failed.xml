@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JQAModul4]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="HomePageTests(failed)" verbose="0">
+    <classes>
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="checkShowPerformance"/>
+          <include name="setup"/>
+          <include name="checkHidePerformance"/>
+          <include name="checkEmptyLastName"/>
+          <include name="checkEmptyResult"/>
+          <include name="teardown"/>
+          <include name="checkEmptyFirstName"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+    </classes>
+  </test> <!-- HomePageTests(failed) -->
+</suite> <!-- Failed suite [JQAModul4] -->
